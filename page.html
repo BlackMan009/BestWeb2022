@@ -1,0 +1,1531 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bug Gaming</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="page.css">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/10296a4c74.js"></script>
+    <link rel="icon" type="image/x-icon" href="./iconweb.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(41,41,41);">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo.png" width="150px" class="img-fluid" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-left: 180px;">
+                <div class="navbar-nav">
+                    <a class="link" href="#">Trang Chủ</a>
+                    <a class="link" href="pay.html">Nạp Tiền</a>
+                    <a class="link" href="huongdan.html">Hướng Dẫn Mua Acc</a>
+                    <a class="link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1"
+                        aria-controls="offcanvasRight">Đánh Giá</a>
+
+
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1"
+                        aria-labelledby="offcanvasRightLabel" style="background-color: rgb(41,41,41);">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel" style="text-transform: uppercase; color: red;">Đánh Giá Chúng
+                                Tôi</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p style="color: white; font-size: 20px; font-weight: 600; text-align: center;">Đánh Giá</p>
+                            <ul class="lisss"
+                                style="margin-left: 60px; border: 4px solid #c2e1fd; display: inline-block; border-radius: 20px;">
+                                <li style="margin-right: 70px;"><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">5</li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                    </ul>
+                                </li>
+                                <li><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">4 </li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                    </ul>
+                                </li>
+                                <li><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">3</li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                    </ul>
+                                </li>
+                                <li><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">2</li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                    </ul>
+                                </li>
+                                <li><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">1</li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <hr style="color:  white;">
+
+                            <p style="color: white; font-size: 20px; font-weight: 600; text-align: center;">Ý Kiến Đánh
+                                Giá</p>
+
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">@ <label for=""
+                                        style="color: red;">*</label></span>
+                                <input type="text" class="form-control" placeholder="Gmail" aria-label="Username"
+                                    aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group" style="margin-top: 40px;">
+                                <textarea class="form-control" aria-label="With textarea"
+                                    placeholder="Gửi ý kiến góp ý của bạn đến chứng tôi ..."></textarea>
+                            </div>
+                            <div class="" style="text-align: center; margin-top: 30px;">
+                            <button class="btn btn-success" style="width: 200px;">Gửi đi</button>
+                        </div>
+                            
+                        </div>
+                    </div>
+
+
+                    <a class="link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight">Liên Hệ</a>
+
+                    <!-- ========== Start Section ========== -->
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel" style="background-color: rgba(188, 72, 82, 0.841);">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel" style="text-transform: uppercase; color: white;">Liên Hệ Chúng
+                                Tôi</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div style="text-align: center; color: white;">
+                                <img src="./logo.png" width="200px" style="margin-bottom: 50px;" alt="">
+                                <p><i class="fa-solid fa-phone"></i> Phone : 0983233912</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-envelope-open"></i> Hộp Thư : Canhcungteam@gmail.com</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-brands fa-facebook"></i> Facebook : CanhCungTeam (Mua Acc Game) </p>
+                                <hr>
+
+                                <!-- Grid container -->
+                                <div class="container p-4 pb-0">
+                                    <!-- Section: Social media -->
+                                    <section class="mb-4">
+                                        <!-- Facebook -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+                                            href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                                        <!-- Twitter -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+                                            href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                                        <!-- Google -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
+                                            href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                                        <!-- Instagram -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
+                                            href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                                        <!-- Linkedin -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
+                                            href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                                        <!-- Github -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+                                            href="#!" role="button"><i class="fab fa-github"></i></a>
+                                    </section>
+                                    <!-- Section: Social media -->
+                                </div>
+                                <!-- Grid container -->
+
+                                <!-- Copyright -->
+                                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                                    © 2022 Copyright:
+                                    <a class="text-white" href="#">CanhcungTeam.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ========== End Section ========== -->
+
+
+
+
+                    <a class="link" style="margin-left: 200px;" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                        role="button" aria-controls="offcanvasExample">
+                        <i class="fa-solid fa-user-ninja"></i>
+                    </a>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel" style="background-color: rgba(188, 72, 82, 0.841);">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="color: white;">Hồ Sơ Khách
+                                Hàng</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div style="text-align: center; color: white;">
+                                <img src="https://2.bp.blogspot.com/-Gto-wMNlGOc/XNsejtfZKZI/AAAAAAABS44/jhrXCTrFAZUwqvfhLIoliR0ns8eRDaH0wCLcBGAs/s1600/4073.jpg"
+                                    width="200px" style="border-radius: 50%; margin-bottom: 15px;" alt="">
+                                <p><i class="fa-solid fa-user-ninja size"></i> Nick Name : Cánh Cam</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-dollar-sign size"></i> Số dư tài khoản : <label for=""
+                                        style="color: yellow;">2.000.000</label> đ</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-file-pen size"></i> Chỉnh sửa thông tin</p>
+                                <hr style="margin: 20px 40px;">
+                                <a href="lichsu.html" style="text-decoration: none; color: white;"><i class="fa-solid fa-clock-rotate-left size"></i> Lịch sử giao dịch</a>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-bell size"></i> Thông báo</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-arrow-right-from-bracket size"></i> Đăng xuất</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tr">
+    </div>
+
+    <div class="p-5 text-center bg-image" style="
+          background-image: url('bg-page.jpg');
+          height: 600px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        ">
+        <div style="margin-top: 30%; margin-right: 5%;">
+            <a href="register.html"><button class="build">Đăng Kí</button></a>
+            <a href="login.html"><button class="build">Đăng Nhập</button></a>
+        </div>
+
+    </div>
+
+    <section class=" text-center text-lg-start" style="background-color: rgb(41,41,41);">
+        <!-- Grid container -->
+        <div class="container p-4">
+
+            <div class="row" style="margin-bottom: 20px;">
+                <p class="title-box">Danh Mục Tài Khoản</p>
+            </div>
+            <!--Grid row-->
+            <div class="row">
+                <div class="col span-1-of-4 about-picture1">
+                    <img src="https://i.ytimg.com/vi/YpPygLkhfME/maxresdefault.jpg" width="250px" alt="activities1">
+                    <p class="picture-title1">
+                        Language Of Legend
+                    </p>
+                </div>
+                <div class="col span-1-of-4 about-picture1">
+                    <img src="https://lvgames.net/lqm/wp-content/uploads/2018/08/airi03.jpg" width="250px"
+                        alt="activities2">
+                    <p class="picture-title1">
+                        Arena Of Valor
+                    </p>
+                </div>
+                <div class="col span-1-of-4 about-picture1">
+                    <img src="https://cdn.unwire.hk/wp-content/uploads/2019/02/0219-2b-1280x720.jpg" width="250px"
+                        alt="activities3">
+                    <p class="picture-title1">
+                        Fifa Online 4
+                    </p>
+                </div>
+                <div class="col span-1-of-4 about-picture1">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.Ulb7qYXnkxC5TjE0ckR-wAHaEK&pid=Api&P=0&w=285&h=160"
+                        width="250px" alt="activities4">
+                    <p class="picture-title1">
+                        Battle Grounds
+                    </p>
+                </div>
+
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+    </section>
+
+    <section class=" text-center text-lg-start" style="background-color: rgb(41,41,41);">
+        <!-- Grid container -->
+        <div class="container p-4">
+
+            <div class="row" style="margin-bottom: 20px;">
+                <p class="title-box">Tìm Kiếm Tài Khoản</p>
+            </div>
+            <!--Grid row-->
+            <div class="row">
+
+                <div class="form"
+                    style="height: 250px; width: 100%; background-color: rgb(85, 81, 81); border: 4px solid #c2e1fd; border-radius: 20px;">
+                    <div class="row">
+                        <h4 style="text-transform: uppercase; color: yellow; padding-left: 40px;padding-top: 20px">Chọn
+                            thuộc tính lọc</h4>
+                    </div>
+                    <div class="row" style="text-align: center;">
+                        <div class="col-lg-3">
+                            <select name="" id="set-up-select">
+                                <option value="">Loại Game</option>
+                                <option value="">Liên Minh</option>
+                                <option value="">Liên Quân</option>
+                                <option value="">Fifa Online</option>
+                                <option value="">PUPG</option>
+                                <option value="">GTA V</option>
+                                <option value="">Free Fire</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <select name="" id="set-up-select">
+                                <option value="">Loại Rank</option>
+                                <option value="">Rank Sắt</option>
+                                <option value="">Rank Đồng</option>
+                                <option value="">Rank Bạc</option>
+                                <option value="">Rank Vàng</option>
+                                <option value="">Rank Bạch Kim</option>
+                                <option value="">Rank Kim Cương</option>
+                                <option value="">Rank Cao Thủ</option>
+                                <option value="">Rank Thách Đấu</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <select name="" id="set-up-select">
+                                <option value="">Xắp Xếp Theo</option>
+                                <option value="">Sô Lượng Tướng</option>
+                                <option value="">Số Lượng Trang Phục</option>
+                                <option value="">Mức Rank</option>
+                                <option value="">Giá Cao đến Thấp</option>
+                                <option value="">Giá Thấp Đến Cao</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <select name="" id="set-up-select">
+                                <option value="">Tìm Theo Giá</option>
+                                <option value="">Acc Dưới 50K</option>
+                                <option value="">Acc 50K - 200K</option>
+                                <option value="">Acc 200K - 400K</option>
+                                <option value="">Acc 400K - 1.000 triệu</option>
+                                <option value="">Acc Trên 1.000 triệu</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="text-align: center;box-sizing: border-box; margin-top: 30px; margin-left: auto;">
+                        <button class="btn btn-outline-success"
+                            style="width: 200px; font-weight: 600; margin-right: 20px;">Tìm Kiếm</button>
+                        <button class="btn btn-outline-danger"
+                            style="width: 200px; font-weight: 600; margin-right: 20px;">Hủy Bỏ</button>
+                    </div>
+                </div>
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+    </section>
+
+    <main>
+
+        <div class="album py-5" style="background-color: rgb(41,41,41);">
+
+            <div class="container">
+                <div class="row" style="margin-bottom: 20px;">
+                    <p class="title-box">Danh Sách Tài Khoản</p>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="about-picture">
+                                <img src="https://game.cohet.vn/upload/data/images/hinh-nen-backgroup/Ashe/hinh-nen-tuong-Ashe-trong-lien-minh-huyen-thoai-38.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Liên Minh Huyền Thoại</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Liên Minh Huyền Thoại</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger"
+                                                                data-bs-toggle="modal"
+                                                                data-bs-target="#exampleModal1">Thanh
+                                                                Toán</button>
+                                                            <div class="modal fade" id="exampleModal1" tabindex="-1"
+                                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                <div class="modal-dialog">
+                                                                    <div class="modal-content"
+                                                                        style="background-color: rgb(41,41,41)">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title"
+                                                                                id="exampleModalLabel"
+                                                                                style="color: white;">Hoàn Thành Giao
+                                                                                Dịch</h5>
+                                                                            <button type="button" class="btn-close"
+                                                                                data-bs-dismiss="modal"
+                                                                                aria-label="Close"></button>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-5 dm-tt">
+
+                                                                                    <li>Tên Đăng Nhập</li>
+                                                                                    <hr>
+                                                                                    <li>Mật Khẩu</li>
+                                                                                    <hr>
+                                                                                    <li>Số Tiền Đã Thanh Toán</li>
+                                                                                    <hr>
+                                                                                    <li
+                                                                                        style="color: rgb(255, 247, 0);">
+                                                                                        Lưu ý</li>
+                                                                                </div>
+                                                                                <div class="col-lg-7 dm-tt"
+                                                                                    style="text-align: right;">
+
+                                                                                    <li>LegendOfKing</li>
+                                                                                    <hr>
+                                                                                    <li>1234567legend</li>
+                                                                                    <hr>
+                                                                                    <li>200.000 VNĐ</li>
+                                                                                    <hr>
+                                                                                    <li
+                                                                                        style="color: rgb(255, 247, 0);">
+                                                                                        Có thể xem lại tại lịch sử giao
+                                                                                        dịch</li>
+                                                                                </div>
+
+                                                                            </div>
+                                                                            <div class="row"
+                                                                                style="text-align: center; padding-top: 30px; color: yellow">
+                                                                                <h3>Cảm ơn bạn đã ủng hộ !</h3>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <button type="button"
+                                                                                class="btn btn-success"
+                                                                                data-bs-dismiss="modal">Đóng</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://anhdepfree.com/wp-content/uploads/2020/07/wukong-lien-quan.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+
+
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Liên Quân Mobie</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Liên Quân Mobie</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://topchiase24h.com/wp-content/uploads/2021/04/Hinh-anh-Free-Fire-6-1024x576.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Free Fire</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Free Fire</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://scr.vn/wp-content/uploads/2020/07/H%C3%ACnh-n%E1%BB%81n-PUBG-%C4%91%E1%BA%B9p-nh%E1%BA%A5t.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Battle Grounds</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Battle Grounds (PUPG)</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://anhnendep.net/wp-content/uploads/2018/12/hinh-nen-game-FIFA-online-4-dep-9.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Fifa Online 4</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Fifa Online 4</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://1.bp.blogspot.com/-mxfQxZSjEc4/XUKwerNRi7I/AAAAAAAAFDU/4bD88Pqn9DILz16fR9WQDnr7iKS6lCJ4QCLcBGAs/s1600/37.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Grand Theft Auto V</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Grand Theft Auto V</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="about-picture">
+                                <img src="https://game.cohet.vn/upload/data/images/hinh-nen-backgroup/Ashe/hinh-nen-tuong-Ashe-trong-lien-minh-huyen-thoai-38.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Liên Minh Huyền Thoại</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Liên Minh Huyền Thoại</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://anhdepfree.com/wp-content/uploads/2020/07/wukong-lien-quan.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+
+
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Liên Quân Mobie</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Liên Quân Mobie</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://topchiase24h.com/wp-content/uploads/2021/04/Hinh-anh-Free-Fire-6-1024x576.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Free Fire</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Free Fire</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://scr.vn/wp-content/uploads/2020/07/H%C3%ACnh-n%E1%BB%81n-PUBG-%C4%91%E1%BA%B9p-nh%E1%BA%A5t.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Battle Grounds</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Battle Grounds (PUPG)</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://anhnendep.net/wp-content/uploads/2018/12/hinh-nen-game-FIFA-online-4-dep-9.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Fifa Online 4</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Fifa Online 4</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+
+                            <div class="about-picture">
+                                <img src="https://1.bp.blogspot.com/-mxfQxZSjEc4/XUKwerNRi7I/AAAAAAAAFDU/4bD88Pqn9DILz16fR9WQDnr7iKS6lCJ4QCLcBGAs/s1600/37.jpg"
+                                    class="img-fluid" alt="">
+                                <a class="picture-title">
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="type-acc">Grand Theft Auto V</p>
+                                        <ul>
+                                            <li>Rank : Đồng</li>
+                                            <li>Tướng : 100</li>
+                                            <li>Trang Phục : 20</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <div style="margin-top: 30px;">
+                                            <p style="display: inline;">Giá :</p>
+                                            <p class="price" style="display: inline;"> 200.000 VNĐ</p>
+                                            <button type="button" class="btn btn-success btn-buy" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+                                                Mua Ngay
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title title-gd" id="exampleModalLabel">Giao
+                                                                dịch mới</h5>
+                                                            <button type="button" class="btn-close"
+                                                                data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 dm-tt">
+
+                                                                    <li>Game</li>
+                                                                    <hr>
+                                                                    <li>Giá Tiền</li>
+                                                                    <hr>
+                                                                    <li>Thông Tin Tài Khoản</li>
+                                                                    <hr>
+                                                                    <li>Số Dư Hiện Tại</li>
+                                                                    <hr>
+                                                                    <li>Số Tiền Cần Trả</li>
+
+                                                                </div>
+                                                                <div class="col-lg-6 dm-tt" style="text-align: right;">
+
+                                                                    <li>Grand Theft Auto V</li>
+                                                                    <hr>
+                                                                    <li>200.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li><a href=""
+                                                                            style="text-decoration: none; color: yellow;">Xem
+                                                                            Thông Tin Tài Khoản</a></li>
+                                                                    <hr>
+                                                                    <li>2.000.000 VNĐ</li>
+                                                                    <hr>
+                                                                    <li>- 200.000 VNĐ</li>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-danger">Thanh
+                                                                Toán</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="#">CanhCungTeam.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

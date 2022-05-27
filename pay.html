@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Nạp Tiền</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="pay.css">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="pricing.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/10296a4c74.js"></script>
+    <link rel="icon" type="image/x-icon" href="./iconweb.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(41,41,41);">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo.png" width="150px" class="img-fluid" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-left: 180px;">
+                <div class="navbar-nav">
+                    <a class="link" href="page copy.html">Trang Chủ</a>
+                    <a class="link" href="pay.html">Nạp Tiền</a>
+                    <a class="link" href="huongdan.html">Hướng Dẫn Mua Acc</a>
+                    <a class="link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1"
+                        aria-controls="offcanvasRight">Đánh Giá</a>
+
+
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1"
+                        aria-labelledby="offcanvasRightLabel" style="background-color: rgb(41,41,41);">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel" style="text-transform: uppercase; color: red;">Đánh Giá Chúng
+                                Tôi</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p style="color: white; font-size: 20px; font-weight: 600; text-align: center;">Đánh Giá</p>
+                            <ul class="lisss"
+                                style="margin-left: 60px; border: 4px solid #c2e1fd; display: inline-block; border-radius: 20px;">
+                                <li style="margin-right: 70px;"><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">5</li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                    </ul>
+                                </li>
+                                <li><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">4 </li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                    </ul>
+                                </li>
+                                <li><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">3</li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                    </ul>
+                                </li>
+                                <li><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">2</li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                    </ul>
+                                </li>
+                                <li><input type="radio">
+                                    <ul class="star-number" style="display: inline; margin-left: -20px;">
+                                        <li style="color: yellow; margin-right: 10px; font-weight: 700;">1</li>
+                                        <li><i class="fa-solid fa-star color"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                        <li><i class="fa-solid fa-star color-white"></i></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <hr style="color:  white;">
+
+                            <p style="color: white; font-size: 20px; font-weight: 600; text-align: center;">Ý Kiến Đánh
+                                Giá</p>
+
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">@ <label for=""
+                                        style="color: red;">*</label></span>
+                                <input type="text" class="form-control" placeholder="Gmail" aria-label="Username"
+                                    aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group" style="margin-top: 40px;">
+                                <textarea class="form-control" aria-label="With textarea"
+                                    placeholder="Gửi ý kiến góp ý của bạn đến chứng tôi ..."></textarea>
+                            </div>
+                            <div class="" style="text-align: center; margin-top: 30px;">
+                                <button class="btn btn-success" style="width: 200px;">Gửi đi</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <a class="link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight">Liên Hệ</a>
+
+                    <!-- ========== Start Section ========== -->
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel" style="background-color: rgba(188, 72, 82, 0.841);">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel" style="text-transform: uppercase; color: white;">Liên Hệ Chúng
+                                Tôi</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div style="text-align: center; color: white;">
+                                <img src="./logo.png" width="200px" style="margin-bottom: 50px;" alt="">
+                                <p><i class="fa-solid fa-phone"></i> Phone : 0983233912</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-envelope-open"></i> Hộp Thư : Canhcungteam@gmail.com</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-brands fa-facebook"></i> Facebook : CanhCungTeam (Mua Acc Game) </p>
+                                <hr>
+
+                                <!-- Grid container -->
+                                <div class="container p-4 pb-0">
+                                    <!-- Section: Social media -->
+                                    <section class="mb-4">
+                                        <!-- Facebook -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+                                            href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                                        <!-- Twitter -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+                                            href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                                        <!-- Google -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
+                                            href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                                        <!-- Instagram -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
+                                            href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                                        <!-- Linkedin -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
+                                            href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                                        <!-- Github -->
+                                        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+                                            href="#!" role="button"><i class="fab fa-github"></i></a>
+                                    </section>
+                                    <!-- Section: Social media -->
+                                </div>
+                                <!-- Grid container -->
+
+                                <!-- Copyright -->
+                                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                                    © 2022 Copyright:
+                                    <a class="text-white" href="#">CanhcungTeam.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ========== End Section ========== -->
+
+
+
+
+                    <a class="link" style="margin-left: 200px;" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                        role="button" aria-controls="offcanvasExample">
+                        <i class="fa-solid fa-user-ninja"></i>
+                    </a>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel" style="background-color: rgba(188, 72, 82, 0.841);">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="color: white;">Hồ Sơ Khách
+                                Hàng</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div style="text-align: center; color: white;">
+                                <img src="https://2.bp.blogspot.com/-Gto-wMNlGOc/XNsejtfZKZI/AAAAAAABS44/jhrXCTrFAZUwqvfhLIoliR0ns8eRDaH0wCLcBGAs/s1600/4073.jpg"
+                                    width="200px" style="border-radius: 50%; margin-bottom: 15px;" alt="">
+                                <p><i class="fa-solid fa-user-ninja size"></i> Nick Name : Cánh Cam</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-dollar-sign size"></i> Số dư tài khoản : <label for=""
+                                        style="color: yellow;">2.000.000</label> đ</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-file-pen size"></i> Chỉnh sửa thông tin</p>
+                                <hr style="margin: 20px 40px;">
+<a href="lichsu.html" style="text-decoration: none; color: white;"><i class="fa-solid fa-clock-rotate-left size"></i>
+    Lịch sử giao dịch</a>
+                                    <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-bell size"></i> Thông báo</p>
+                                <hr style="margin: 20px 40px;">
+                                <p><i class="fa-solid fa-arrow-right-from-bracket size"></i> Đăng xuất</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tr">
+    </div>
+
+    <div class="p-5 text-center bg-image" style="
+          background-image: url('bg-page.jpg');
+          height: 600px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        ">
+
+    </div>
+    <div class="container-fluid" style="background-color: rgb(41,41,41);">
+        <div class="container">
+            <div class="row">
+                <div class="box1" style="margin-bottom: 20px;">
+                    <h3>Nạp Tiền</h3>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3" style="background-color: rgb(255, 69, 69);">
+                            <p class="my-0 fw-normal" style="font-size: 25px; font-weight: 700; color: white;">Nạp tiền bằng Thẻ Cào </p>
+                        </div>
+                        <div class="card-body" style="background-color: rgb(85,81,81);">
+                            <div class="input-group mb-3">
+                                <select class="form-select" id="inputGroupSelect02"
+                                    style="background-color: rgb(176, 166, 166); color: red; font-weight: 600;">
+                                    <option selected>Chọn Loại Thẻ</option>
+                                    <option value="1">Viettel</option>
+                                    <option value="2">Mobiephone</option>
+                                    <option value="3">Vinaphone</option>
+                                    <option value="4">Vietnammobie</option>
+                                    <option value="5">Gate</option>
+                                    <option value="6">Zing</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <select class="form-select" id="inputGroupSelect02"
+                                    style="background-color: rgb(176, 166, 166); color: red; font-weight: 600;">
+                                    <option selected>Chọn Mệnh Giá</option>
+                                    <option value="1">10.000 đ</option>
+                                    <option value="2">20.000 đ</option>
+                                    <option value="3">50.000 đ</option>
+                                    <option value="4">100.000 đ</option>
+                                    <option value="5">200.000 đ</option>
+                                    <option value="6">500.000 đ</option>
+                                    <option value="6">Khác...</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Nhập Serial" aria-label="Username"
+                                    aria-describedby="basic-addon1"
+                                    style="background-color: rgb(176, 166, 166); color: red; font-weight: 600;">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Nhập Mã Thẻ" aria-label="Username"
+                                    aria-describedby="basic-addon1"
+                                    style="background-color: rgb(176, 166, 166); color: red; font-weight: 600;">
+                            </div>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-danger" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1" style="margin-top: 15px;">Xác Nhận Thanh Toán</button>
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Thông
+                                                Báo</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p style="font-size: 20px; font-weight: 500;color: white;">Đã Nạp Tiền Thành
+                                                Công</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="pay.html"><button type="button" class="btn btn-success"
+                                                    data-bs-dismiss="modal">Đóng</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3" style="background-color: rgb(255, 69, 69);">
+                            <p class="my-0 fw-normal" style="font-size: 25px; font-weight: 700; color: white;">Nạp tiền bằng Thẻ Ngân Hàng </p>
+                        </div>
+                        <div class="card-body" style="background-color: rgb(85,81,81);">
+                            <div class="input-group mb-3">
+                                <select class="form-select" id="inputGroupSelect02"
+                                    style="background-color: rgb(176, 166, 166); color: red;font-weight: 600;">
+                                    <option selected>Chọn Ngân Hàng</option>
+                                    <option value="1">Agribank</option>
+                                    <option value="2">Vietcom Bank</option>
+                                    <option value="3">MB Bank</option>
+                                    <option value="4">TP Bank</option>
+                                    <option value="5">ACB Bank</option>
+                                    <option value="6">Khác...</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <select class="form-select" id="inputGroupSelect02"
+                                    style="background-color: rgb(176, 166, 166); color: red; font-weight: 600;">
+                                    <option selected>Chọn Mệnh Giá</option>
+                                    <option value="1">10.000 đ</option>
+                                    <option value="2">20.000 đ</option>
+                                    <option value="3">50.000 đ</option>
+                                    <option value="4">100.000 đ</option>
+                                    <option value="5">200.000 đ</option>
+                                    <option value="6">500.000 đ</option>
+                                    <option value="6">Khác...</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Nhập Số Tài Khoản Ngân Hàng"
+                                    aria-label="Username" aria-describedby="basic-addon1"
+                                    style="background-color: rgb(176, 166, 166); color: red; font-weight: 600;">
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Nhập Mã OTP"
+                                        style="background-color: rgb(176, 166, 166); color: red; font-weight: 600;"
+                                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">Gửi Mã OTP</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel"
+                                                        style="color: white;">Thông Báo</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p style="font-size: 20px; font-weight: 500;color: white;">Đã Gửi Mã
+                                                        OTP.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-success"
+                                                        data-bs-dismiss="modal">Đóng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-danger" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">Xác Nhận Thanh Toán</button>
+
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background-color: rgb(41,41,41)">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: white;">Thông
+                                                Báo</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p style="font-size: 20px; font-weight: 500;color: white;">Đã Nạp Tiền Thành
+                                                Công</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="pay.html"><button type="button" class="btn btn-success"
+                                                    data-bs-dismiss="modal">Đóng</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-light text-center text-lg-start" style="margin-top: -10px;">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="#">CanhCungTeam.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
